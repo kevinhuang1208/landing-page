@@ -124,3 +124,15 @@ img {
 .text{ 
     font-size: 11px;
 }
+
+.footer {
+    margin-top:auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
