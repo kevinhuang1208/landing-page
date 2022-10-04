@@ -1,4 +1,5 @@
 body {
+    font-family: "Hero", sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -39,12 +40,11 @@ a {
 
 .upper {
     background-color: #1F2937;
-    height: 300px;
+    height: 250px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
@@ -52,7 +52,7 @@ a {
 
 .huge {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bolder;
     width: 50%;
     color: #F9FAF8;
     padding-left: 2em;
@@ -66,8 +66,15 @@ a {
 
 .bone {
     margin-left: 7em;
+    margin-top: 5px;
     color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
     background-color: #3882F6;
+    border-radius: 5px;
+    border: #3882F6;
 }
 
 .gull {
@@ -79,14 +86,30 @@ a {
 img {
     max-width: 100%;
     max-height: 100%;
+    border-radius: 20px;
+
 }
 
-.middle {
-    max-height: 150px;
-    max-width: 100%;
+.bold {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    margin-bottom: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
 }
 
 .bold {
@@ -96,4 +119,8 @@ img {
 .info {
     max-height: 100px;
     max-width: 100px;
+}
+
+.text{ 
+    font-size: 11px;
 }
